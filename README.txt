@@ -1,10 +1,12 @@
-VISHAL SURYAWANSWANI PORTFOLIO V6
+VISHAL PORTFOLIO — FORMSUBMIT EMAIL VERSION
 
-Added:
-- Potato Harvesting Machine as featured BE Mechanical Engineering project.
-- Professional Mechanical Engineering Skills section.
-- Skills are grouped into Mechanical, Inspection & Quality, Workshop, and Learning/Basic.
-- Engineering Drawing, GD&T, AutoCAD and NDT are explicitly marked Basic/Learning.
-- Project photo/report placeholders can be replaced later.
+Resume form:
+Visitor -> Name + Mobile + Email + Reason + optional Message + Consent
+-> FormSubmit -> vishhal1997@gmail.com
+-> redirect to download.html -> resume.pdf
 
-Resume, profile photo, certificates placeholders and gated resume form remain included.
+IMPORTANT:
+1. The first real form submission triggers FormSubmit's email activation/confirmation.
+2. Do not upload any Gmail password, OTP, or token.
+3. After replacing the files on GitHub Pages, test with a real email address.
+4. The email destination is vishhal1997@gmail.com.
