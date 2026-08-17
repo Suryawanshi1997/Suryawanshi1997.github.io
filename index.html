@@ -67,6 +67,20 @@ footer a{color:#6ee7d8;text-decoration:none}
 .resume-form .consent input{width:auto;margin-top:4px}
 .form-note{font-size:12px;color:#7f8d9c;margin:0}
 </style>
+
+<style>
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px;margin-top:28px}
+.contact-details{background:#111923;border:1px solid #293746;border-radius:18px;padding:24px}
+.contact-item{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-bottom:1px solid #25313e}
+.contact-icon{font-size:21px;width:30px}
+.contact-item small{display:block;color:#7f8d9c;font-size:12px;margin-bottom:5px}
+.contact-item a{color:#eef3f7;text-decoration:none;font-weight:600}
+.contact-item a:hover{color:#6ee7d8}
+.contact-item p{margin:0;color:#c9d2dc;line-height:1.55}
+.map-card{min-height:360px;border:1px solid #293746;border-radius:18px;overflow:hidden;background:#111923}
+.map-card iframe{width:100%;height:100%;min-height:360px;border:0}
+@media(max-width:800px){.contact-grid{grid-template-columns:1fr}.map-card,.map-card iframe{min-height:300px}}
+</style>
 </head><body>
 <header><a class="logo" href="#home">VS<span>.</span></a><button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button><nav><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#notes">Notes</a><a href="#certificates">Certificates</a><a href="#gallery">Gallery</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav></header>
 <section id="home" class="hero"><div><small>MECHANICAL ENGINEER • PERSONAL PORTFOLIO</small><h1>Hi, I'm <em>Vishal Suryawanshi</em>.</h1><h2>Mechanical Engineer | Quality & Inspection | Continuous Learner</h2><p>Mechanical Engineering professional building practical experience in fabrication, maintenance, assembly, inspection and quality-focused work.</p><a class="btn" href="#work">Explore My Work</a> <a class="btn outline" href="#contact">Contact Me</a></div><aside><img src="vishal-profile.jpg" alt="Vishal Suryawanshi"><p>Mechanical Engineering • Fabrication • Maintenance • Quality</p></aside></section>
@@ -161,7 +175,22 @@ footer a{color:#6ee7d8;text-decoration:none}
 </form>
 </div>
 </section>
-<section id="contact" class="dark"><small>07 — CONTACT</small><h2>Let's connect.</h2><p>For job opportunities, professional connections or collaboration.</p><div class="links"><a href="mailto:vishhal1997@gmail.com">✉ vishhal1997@gmail.com</a><a href="#">in LinkedIn</a><a href="#">☎ Phone</a></div></section>
+<section id="contact" class="contact-section">
+<small>07 — CONTACT</small>
+<h2>Let's connect.</h2>
+<p>For mechanical engineering opportunities, professional networking or project discussions, feel free to contact me.</p>
+<div class="contact-grid">
+  <div class="contact-details">
+    <div class="contact-item"><span class="contact-icon">📞</span><div><small>Mobile</small><a href="tel:+919373944683">+91 93739 44683</a></div></div>
+    <div class="contact-item"><span class="contact-icon">✉️</span><div><small>Email</small><a href="mailto:vishhal1997@gmail.com">vishhal1997@gmail.com</a></div></div>
+    <div class="contact-item"><span class="contact-icon">📍</span><div><small>Location</small><p>Vishal Suryawanshi<br>Balhegaon, Vaijapur,<br>Chhatrapati Sambhajinagar, Maharashtra – 431116</p></div></div>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=20.13787,74.8987" target="_blank" rel="noopener">Get Directions →</a>
+  </div>
+  <div class="map-card">
+    <iframe src="https://www.google.com/maps?q=20.13787,74.8987&z=14&output=embed" title="Map showing Balhegaon, Vaijapur, Maharashtra" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+</div>
+</section>
 <footer><span>© 2026 Vishal Suryawanshi</span><span>Mechanical Engineer • Personal Portfolio</span><a href="#home">Back to top ↑</a></footer><script>
 const menu=document.querySelector('.menu'),nav=document.querySelector('nav');
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});

@@ -1,12 +1,10 @@
-VISHAL PORTFOLIO — FORMSUBMIT EMAIL VERSION
+FINAL CONTACT + EMAIL PORTFOLIO
+Contact:
+Vishal Suryawanshi
+Balhegaon, Vaijapur,
+Chhatrapati Sambhajinagar, Maharashtra – 431116
+Mobile: +91 93739 44683
+Email: vishhal1997@gmail.com
 
-Resume form:
-Visitor -> Name + Mobile + Email + Reason + optional Message + Consent
--> FormSubmit -> vishhal1997@gmail.com
--> redirect to download.html -> resume.pdf
-
-IMPORTANT:
-1. The first real form submission triggers FormSubmit's email activation/confirmation.
-2. Do not upload any Gmail password, OTP, or token.
-3. After replacing the files on GitHub Pages, test with a real email address.
-4. The email destination is vishhal1997@gmail.com.
+Includes responsive Google Maps, Get Directions, tap-to-call and email links.
+Resume form remains connected to FormSubmit destination vishhal1997@gmail.com.
