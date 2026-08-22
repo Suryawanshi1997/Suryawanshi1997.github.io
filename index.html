@@ -1,238 +1,225 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vishal Suryawanshi | Mechanical Engineer Portfolio</title><meta name="description" content="Professional portfolio of Vishal Suryawanshi — Mechanical Engineer, practical experience, projects, skills and resume."><meta name="theme-color" content="#0b1017"><link rel="stylesheet" href="style.css">
-<style>
-.resume-box{max-width:680px;background:#111923;border:1px solid #293746;border-radius:18px;padding:28px;margin-top:28px}
-.resume-box form{display:grid;gap:9px}
-.resume-box label{font-size:14px;color:#cbd5df;margin-top:8px}
-.resume-box input,.resume-box select,.resume-box textarea{width:100%;padding:13px 14px;border-radius:10px;border:1px solid #344252;background:#0b1017;color:#eef3f8;font:inherit;outline:none}
-.resume-box input:focus,.resume-box select:focus,.resume-box textarea:focus{border-color:#6ee7d8}
-.resume-box textarea{resize:vertical}
-.resume-box .consent{display:flex;gap:9px;align-items:flex-start;font-size:13px;color:#8996a5}
-.resume-box .consent input{width:auto;margin-top:3px}
-.form-status{min-height:22px;margin:3px 0 0;color:#6ee7d8!important}
-</style>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vishal Suryawanshi | Mechanical Engineer Portfolio</title>
+<meta name="description" content="Professional portfolio of Vishal Suryawanshi — Mechanical Engineer, skills, project, certificates, gallery and resume.">
+<meta name="theme-color" content="#0b1017">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#home">VS<span>.</span></a>
+  <button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<style>
-.cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}
-.cert-card{display:grid;grid-template-columns:72px 1fr;gap:18px;align-items:center;background:#111923;border:1px solid #293746;border-radius:16px;padding:20px}
-.cert-icon{width:72px;height:72px;border-radius:12px;display:grid;place-items:center;background:#182732;color:#6ee7d8;font-weight:800;font-size:13px;letter-spacing:1px}
-.cert-card h3{margin:5px 0;font-size:20px}
-.cert-card p,.cert-card span{color:#8e9bab;margin:0;font-size:14px}
-.cert-card a{grid-column:1/-1;display:inline-block;color:#6ee7d8;border:1px solid #344252;border-radius:9px;padding:9px 13px;text-decoration:none;width:max-content}
-@media(max-width:800px){.cert-grid{grid-template-columns:1fr}}
-</style>
-
-<style>
-.project-feature{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:center;margin-top:30px}
-.project-visual{min-height:320px;border:1px solid #293746;border-radius:18px;background:linear-gradient(145deg,#182631,#0e151d);display:grid;place-items:center;text-align:center;color:#6d7d8d;font-weight:800;letter-spacing:2px}
-.project-visual span{font-size:12px;font-weight:400;letter-spacing:0;color:#6ee7d8}
-.project-tag{color:#6ee7d8!important;font-size:13px}
-.project-feature h3{font-size:28px;margin:10px 0}
-.project-points{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
-.project-points span{border:1px solid #344252;border-radius:9px;padding:8px 11px;color:#c7d1dc;font-size:13px}
-.skill-groups{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}
-.skill-group{background:#111923;border:1px solid #293746;border-radius:16px;padding:22px}
-.skill-group h3{margin:0 0 15px}
-.skill-tags{display:flex;flex-wrap:wrap;gap:8px}
-.skill-tags span{border:1px solid #344252;border-radius:20px;padding:7px 11px;color:#c9d2dc;font-size:13px}
-.skill-tags span:before{content:"✓ ";color:#6ee7d8}
-.skill-tags.muted span{color:#8996a5}
-@media(max-width:800px){.project-feature,.skill-groups{grid-template-columns:1fr}}
-</style>
-
-<style>
-a,button{transition:transform .2s ease,opacity .2s ease,border-color .2s ease,background .2s ease}
-a:hover,button:hover{transform:translateY(-1px)}
-.trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#293746;border-top:1px solid #293746;border-bottom:1px solid #293746}
-.trust-strip div{background:#0d141c;padding:22px 20px;text-align:center}
-.trust-strip strong{display:block;color:#fff;font-size:18px}
-.trust-strip span{display:block;color:#7f8d9c;font-size:12px;margin-top:3px}
-.skill-group,.cert-card,.cards article{transition:transform .2s ease,border-color .2s ease}
-.skill-group:hover,.cert-card:hover,.cards article:hover{transform:translateY(-3px);border-color:#425466}
-footer a{color:#6ee7d8;text-decoration:none}
-@media(max-width:800px){.trust-strip{grid-template-columns:repeat(2,1fr)}.trust-strip div{padding:17px 10px}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}
-</style>
-
-<style>
-.resume-form{display:grid;gap:10px;max-width:720px}
-.resume-form label{font-size:13px;color:#c9d2dc;margin-top:8px}
-.resume-form label span{color:#7f8d9c}
-.resume-form input,.resume-form select,.resume-form textarea{
-  width:100%;box-sizing:border-box;background:#0d141c;color:#eef3f7;
-  border:1px solid #334252;border-radius:10px;padding:12px 13px;font:inherit;outline:none
-}
-.resume-form input:focus,.resume-form select:focus,.resume-form textarea:focus{border-color:#6ee7d8}
-.resume-form select{appearance:auto}
-.resume-form .consent{display:flex;align-items:flex-start;gap:9px;line-height:1.45;margin:12px 0}
-.resume-form .consent input{width:auto;margin-top:4px}
-.form-note{font-size:12px;color:#7f8d9c;margin:0}
-</style>
-
-<style>
-.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px;margin-top:28px}
-.contact-details{background:#111923;border:1px solid #293746;border-radius:18px;padding:24px}
-.contact-item{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-bottom:1px solid #25313e}
-.contact-icon{font-size:21px;width:30px}
-.contact-item small{display:block;color:#7f8d9c;font-size:12px;margin-bottom:5px}
-.contact-item a{color:#eef3f7;text-decoration:none;font-weight:600}
-.contact-item a:hover{color:#6ee7d8}
-.contact-item p{margin:0;color:#c9d2dc;line-height:1.55}
-.map-card{min-height:360px;border:1px solid #293746;border-radius:18px;overflow:hidden;background:#111923}
-.map-card iframe{width:100%;height:100%;min-height:360px;border:0}
-@media(max-width:800px){.contact-grid{grid-template-columns:1fr}.map-card,.map-card iframe{min-height:300px}}
-</style>
-</head><body>
-<header><a class="logo" href="#home">VS<span>.</span></a><button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button><nav><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#notes">Notes</a><a href="#certificates">Certificates</a><a href="#gallery">Gallery</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav></header>
-<section id="home" class="hero"><div><small>MECHANICAL ENGINEER • PERSONAL PORTFOLIO</small><h1>Hi, I'm <em>Vishal Suryawanshi</em>.</h1><h2>Mechanical Engineer | Quality & Inspection | Continuous Learner</h2><p>Mechanical Engineering professional building practical experience in fabrication, maintenance, assembly, inspection and quality-focused work.</p><a class="btn" href="#work">Explore My Work</a> <a class="btn outline" href="#contact">Contact Me</a></div><aside><img src="vishal-profile.jpg" alt="Vishal Suryawanshi"><p>Mechanical Engineering • Fabrication • Maintenance • Quality</p></aside></section>
-<div class="trust-strip">
-<div><strong>BE</strong><span>Mechanical Engineering</span></div>
-<div><strong>Diploma</strong><span>Mechanical Engineering</span></div>
-<div><strong>Hands-on</strong><span>Workshop Experience</span></div>
-<div><strong>Open to</strong><span>Mechanical Opportunities</span></div>
-</div>
-<section id="about"><small>01 — ABOUT</small><h2>Engineering is a journey.</h2><div class="cols"><p>I’m a Mechanical Engineering graduate with a diploma and two years of hands-on experience in fabrication, maintenance and assembly operations. I have practical exposure to drilling, cutting, riveting, grinding, folding, basic arc welding and agricultural equipment maintenance, with a strong focus on safety and quality.</p><div class="facts"><b>BE <span>Mechanical Engineering · 2016–2020</span></b><b>Diploma <span>Mechanical Engineering · 2013–2016</span></b><b>Experience <span>Mechanical Workshop Assistant · 04/2024–02/2026</span></b><b>Skills <span>Drilling • Welding • Assembly • Maintenance • QC</span></b></div></div></section>
-<section id="work" class="dark"><small>02 — MY WORK</small><h2>Work, projects & practical learning.</h2><div class="cards"><article><i>01</i><h3>Mechanical Projects</h3><p>Projects with photos, drawings, objectives and results.</p></article><article><i>02</i><h3>Workshop Experience</h3><p>Hands-on engineering activities, fabrication and workshop safety.</p></article><article><i>03</i><h3>Inspection & Quality</h3><p>Mechanical inspection, quality control, measuring instruments and technical documentation.</p></article></div></section>
-
-<section id="projects" class="dark">
-<small>02A — FEATURED PROJECT</small>
-<h2>Potato Harvesting Machine.</h2>
-<div class="project-feature">
-  <div class="project-visual"><div>PROJECT<br>PHOTO<br><span>Add later</span></div></div>
+<section id="home" class="hero">
   <div>
-    <p class="project-tag">BE Mechanical Engineering • Academic Project</p>
-    <h3>A mechanical solution for potato harvesting.</h3>
-    <p>This is my BE Mechanical Engineering project. The project can be expanded here with the objective, design, components, working principle, fabrication process, results and project photographs.</p>
-    <div class="project-points">
-      <span>⚙️ Machine Design</span><span>🔧 Fabrication</span><span>🧰 Mechanical Components</span>
-    </div>
-    <a class="btn outline" href="#contact">Discuss This Project</a>
+    <small>MECHANICAL ENGINEER • PERSONAL PORTFOLIO</small>
+    <h1>Hi, I'm <em>Vishal Suryawanshi</em>.</h1>
+    <h2>Mechanical Engineer | Quality & Inspection | Continuous Learner</h2>
+    <p>Mechanical Engineering professional building practical experience in fabrication, maintenance, assembly, inspection and quality-focused work.</p>
+    <a class="btn" href="#skills">Explore My Skills</a>
+    <a class="btn outline" href="#contact">Contact Me</a>
   </div>
-</div>
+  <aside>
+    <img src="vishal-profile.jpg" alt="Vishal Suryawanshi">
+    <p>Mechanical Engineering • Fabrication • Maintenance • Quality</p>
+  </aside>
 </section>
 
-<section id="skills"><small>04 — NOTES</small><h2>My learning library.</h2><div class="cards"><article><i>📘</i><h3>Mechanical Notes</h3><p>Concepts, formulas and revision material.</p></article><article><i>📐</i><h3>Quality & Inspection</h3><p>Measurement instruments, fasteners, drawings and inspection notes.</p></article><article><i>🔎</i><h3>NDT Learning</h3><p>Study notes, methods and certification resources.</p></article></div></section>
+<div class="trust-strip">
+  <div><strong>BE</strong><span>Mechanical Engineering</span></div>
+  <div><strong>Diploma</strong><span>Mechanical Engineering</span></div>
+  <div><strong>Hands-on</strong><span>Workshop Experience</span></div>
+  <div><strong>Open to</strong><span>Mechanical Opportunities</span></div>
+</div>
+
+<section id="about">
+  <small>01 — ABOUT</small>
+  <h2>Engineering is a journey.</h2>
+  <div class="cols">
+    <p>I’m a Mechanical Engineering graduate with a diploma and hands-on experience in fabrication, maintenance and assembly operations. I have practical exposure to drilling, cutting, riveting, grinding, folding, basic arc welding and agricultural equipment maintenance, with a strong focus on safety and quality.</p>
+    <div class="facts">
+      <b>BE <span>Mechanical Engineering · 2016–2020</span></b>
+      <b>Diploma <span>Mechanical Engineering · 2013–2016</span></b>
+      <b>Experience <span>Mechanical Workshop Assistant · 04/2024–02/2026</span></b>
+      <b>Skills <span>Drilling • Welding • Assembly • Maintenance • QC</span></b>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="dark">
+  <small>02 — SKILLS</small>
+  <h2>Practical skills & technical knowledge.</h2>
+  <div class="skill-groups">
+    <div class="skill-group">
+      <h3>Mechanical</h3>
+      <div class="skill-tags">
+        <span>Mechanical Assembly</span><span>Fabrication & Fitting</span><span>Preventive Maintenance</span>
+        <span>Drilling</span><span>Grinding</span><span>Riveting</span><span>Basic Arc Welding</span><span>Engineering Drawing</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Quality & Inspection</h3>
+      <div class="skill-tags">
+        <span>Quality Inspection</span><span>Vernier Caliper</span><span>Micrometer</span><span>Measurement</span>
+        <span>Tolerance Basics</span><span>Fasteners</span><span>Technical Documentation</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-feature">
+    <div class="project-visual"><div>FEATURED PROJECT<br><strong>Potato Harvesting Machine</strong><br><span>Academic Project</span></div></div>
+    <div>
+      <p class="project-tag">BE Mechanical Engineering • Academic Project</p>
+      <h3>Potato Harvesting Machine.</h3>
+      <p>A mechanical solution developed as my BE Mechanical Engineering academic project, covering machine design, mechanical components, fabrication concepts and functional operation.</p>
+      <div class="project-points"><span>⚙️ Machine Design</span><span>🔧 Fabrication</span><span>🧰 Mechanical Components</span></div>
+    </div>
+  </div>
+</section>
 
 <section id="certificates">
-<small>05 — CERTIFICATES</small>
-<h2>Certificates & training.</h2>
-<p>Certificates and training records will be added here as they become available.</p>
-<div class="cert-grid">
-  <article class="cert-card">
-    <div class="cert-icon">CERT</div>
-    <div><small>SAMPLE</small><h3>XYZ Certificate</h3><p>Certificate Name — Replace Later</p><span>Issued: YYYY</span></div>
-    <a href="#" onclick="alert('Placeholder certificate — replace this card with your real certificate later.'); return false;">View Certificate</a>
-  </article>
-  <article class="cert-card">
-    <div class="cert-icon">TRAIN</div>
-    <div><small>SAMPLE</small><h3>XYZ Training Certificate</h3><p>Training / Course Name — Replace Later</p><span>Issued: YYYY</span></div>
-    <a href="#" onclick="alert('Placeholder certificate — replace this card with your real certificate later.'); return false;">View Certificate</a>
-  </article>
-</div>
+  <small>03 — CERTIFICATES</small>
+  <h2>Certificates & training.</h2>
+  <p>Certificates and training records can be added here as they become available.</p>
+  <div class="cert-grid">
+    <article class="cert-card"><div class="cert-icon">CERT</div><div><small>SAMPLE</small><h3>Certificate</h3><p>Certificate Name — Replace Later</p><span>Issued: YYYY</span></div><a href="#" onclick="alert('Placeholder certificate — replace with your real certificate later.');return false;">View Certificate</a></article>
+    <article class="cert-card"><div class="cert-icon">TRAIN</div><div><small>SAMPLE</small><h3>Training Certificate</h3><p>Training / Course Name — Replace Later</p><span>Issued: YYYY</span></div><a href="#" onclick="alert('Placeholder certificate — replace with your real certificate later.');return false;">View Certificate</a></article>
+  </div>
 </section>
 
-<section id="gallery" class="dark"><small>04 — GALLERY</small><h2>Photography & moments.</h2><div class="gallery"><div><strong>Nature</strong><small>Photos coming soon</small></div><div><strong>Travel</strong><small>Photos coming soon</small></div><div><strong>Engineering</strong><small>Photos coming soon</small></div><div><strong>Personal</strong><small>Photos coming soon</small></div></div></section>
+<section id="gallery" class="dark">
+  <small>04 — GALLERY</small>
+  <h2>Photography & moments.</h2>
+  <p>Nature, travel and personal memories.</p>
+  <div class="gallery-admin-bar">
+    <button id="ownerLoginBtn" class="btn outline" type="button">🔐 Owner Login</button>
+    <button id="addPhotoBtn" class="btn" type="button" hidden>＋ Add Photo</button>
+    <button id="logoutBtn" class="btn outline" type="button" hidden>Logout</button>
+    <input id="photoInput" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple hidden>
+    <span id="ownerStatus" class="owner-status" aria-live="polite"></span>
+  </div>
+  <div class="gallery" id="galleryGrid">
+    <div class="gallery-card"><div class="gallery-photo"><img src="nature_01.jpg" alt="Nature photo" loading="lazy"></div><strong>Nature</strong><small>Nature & landscapes</small></div>
+    <div class="gallery-card"><div class="gallery-photo"><img src="nature_02.jpg" alt="Nature photo" loading="lazy"></div><strong>Nature</strong><small>Nature & landscapes</small></div>
+    <div class="gallery-card"><div class="gallery-photo"><img src="travel_lake_01.jpg" alt="Travel photo" loading="lazy"></div><strong>Travel</strong><small>Travel & memorable journeys</small></div>
+    <div class="gallery-card"><div class="gallery-photo"><img src="travel_02.jpg" alt="Travel photo" loading="lazy"></div><strong>Travel</strong><small>Travel & memorable journeys</small></div>
+  </div>
+</section>
+
 <section id="resume">
-<small>06 — RESUME</small>
-<h2>Download my resume.</h2>
-<p>To download my latest resume, please fill in the short form below.</p>
-<div class="resume-box">
-<form action="https://formsubmit.co/vishhal1997@gmail.com" method="POST" class="resume-form">
-  <input type="hidden" name="_subject" value="New Resume Download Request – Vishal Portfolio">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="https://suryawanshi1997.github.io/download.html">
-  <input type="hidden" name="_captcha" value="true">
+  <small>05 — RESUME</small>
+  <h2>Resume</h2>
+  <p>Click the button below to enter the resume download details.</p>
+  <button id="openResumeForm" class="btn" type="button">Download Resume</button>
 
-  <label for="visitor-name">Name</label>
-  <input id="visitor-name" type="text" name="Name" placeholder="Your full name" required>
-
-  <label for="visitor-phone">Contact Number</label>
-  <input id="visitor-phone" type="tel" name="Contact Number" placeholder="+91 XXXXX XXXXX"
-         pattern="[0-9+()\-\s]{10,18}" required>
-
-  <label for="visitor-email">Email</label>
-  <input id="visitor-email" type="email" name="email" placeholder="you@example.com" required>
-
-  <label for="download-reason">Why are you downloading my resume?</label>
-  <select id="download-reason" name="Reason" required>
-    <option value="" selected disabled>Select a reason</option>
-    <option>Job opportunity / recruitment</option>
-    <option>Professional networking</option>
-    <option>College / academic purpose</option>
-    <option>General reference</option>
-    <option>Other</option>
-  </select>
-
-  <label for="visitor-message">Message <span>(optional)</span></label>
-  <textarea id="visitor-message" name="Message" rows="4" placeholder="Optional message"></textarea>
-
-  <label class="consent">
-    <input type="checkbox" name="Consent" value="I agree to share these details for resume/contact purposes." required>
-    <span>I agree to share these details for resume/contact purposes.</span>
-  </label>
-
-  <button type="submit" class="btn">Submit & Download Resume →</button>
-  <p class="form-note">Your details are used only to respond to this resume request.</p>
-</form>
-</div>
+  <div id="resumeFormBox" class="resume-box" hidden>
+    <form action="https://formsubmit.co/vishhal1997@gmail.com" method="POST" class="resume-form">
+      <input type="hidden" name="_subject" value="New Resume Download Request – Vishal Portfolio">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://suryawanshi1997.github.io/download.html">
+      <input type="hidden" name="_captcha" value="true">
+      <label for="visitor-name">Name</label>
+      <input id="visitor-name" type="text" name="Name" placeholder="Your full name" required>
+      <label for="visitor-phone">Contact Number</label>
+      <input id="visitor-phone" type="tel" name="Contact Number" placeholder="+91 XXXXX XXXXX" pattern="[0-9+()\-\s]{10,18}" required>
+      <label for="visitor-email">Email</label>
+      <input id="visitor-email" type="email" name="email" placeholder="you@example.com" required>
+      <label for="download-reason">Why are you downloading my resume?</label>
+      <select id="download-reason" name="Reason" required>
+        <option value="" selected disabled>Select a reason</option>
+        <option>Job opportunity / recruitment</option><option>Professional networking</option><option>College / academic purpose</option><option>General reference</option><option>Other</option>
+      </select>
+      <label for="visitor-message">Message <span>(optional)</span></label>
+      <textarea id="visitor-message" name="Message" rows="4" placeholder="Optional message"></textarea>
+      <label class="consent"><input type="checkbox" name="Consent" value="I agree to share these details for resume/contact purposes." required><span>I agree to share these details for resume/contact purposes.</span></label>
+      <button type="submit" class="btn">Submit & Download Resume →</button>
+      <p class="form-note">Your details are used only to respond to this resume request.</p>
+    </form>
+  </div>
 </section>
+
 <section id="contact" class="contact-section">
-<small>07 — CONTACT</small>
-<h2>Let's connect.</h2>
-<p>For mechanical engineering opportunities, professional networking or project discussions, feel free to contact me.</p>
-<div class="contact-grid">
-  <div class="contact-details">
-    <div class="contact-item"><span class="contact-icon">📞</span><div><small>Mobile</small><a href="tel:+919373944683">+91 93739 44683</a></div></div>
-    <div class="contact-item"><span class="contact-icon">✉️</span><div><small>Email</small><a href="mailto:vishhal1997@gmail.com">vishhal1997@gmail.com</a></div></div>
-    <div class="contact-item"><span class="contact-icon">📍</span><div><small>Location</small><p>Vishal Suryawanshi<br>Balhegaon, Vaijapur,<br>Chhatrapati Sambhajinagar, Maharashtra – 431116</p></div></div>
-    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=20.13787,74.8987" target="_blank" rel="noopener">Get Directions →</a>
+  <small>06 — CONTACT</small>
+  <h2>Let's connect.</h2>
+  <p>For mechanical engineering opportunities, professional networking or project discussions, feel free to contact me.</p>
+  <div class="contact-grid">
+    <div class="contact-details">
+      <div class="contact-item"><span class="contact-icon">📞</span><div><small>Mobile</small><a href="tel:+919373944683">+91 93739 44683</a></div></div>
+      <div class="contact-item"><span class="contact-icon">✉️</span><div><small>Email</small><a href="mailto:vishhal1997@gmail.com">vishhal1997@gmail.com</a></div></div>
+      <div class="contact-item"><span class="contact-icon">📍</span><div><small>Location</small><p>Vishal Suryawanshi<br>Balhegaon, Vaijapur,<br>Chhatrapati Sambhajinagar, Maharashtra – 431116</p></div></div>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=20.13787,74.8987" target="_blank" rel="noopener">Get Directions →</a>
+    </div>
+    <div class="map-card"><iframe src="https://www.google.com/maps?q=20.13787,74.8987&z=14&output=embed" title="Map showing Balhegaon, Vaijapur, Maharashtra" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
   </div>
-  <div class="map-card">
-    <iframe src="https://www.google.com/maps?q=20.13787,74.8987&z=14&output=embed" title="Map showing Balhegaon, Vaijapur, Maharashtra" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-  </div>
-</div>
 </section>
-<footer><span>© 2026 Vishal Suryawanshi</span><span>Mechanical Engineer • Personal Portfolio</span><a href="#home">Back to top ↑</a></footer><script>
+
+<footer><span>© 2026 Vishal Suryawanshi</span><span>Mechanical Engineer • Personal Portfolio</span><a href="#home">Back to top ↑</a></footer>
+
+<script>
+// Mobile navigation
 const menu=document.querySelector('.menu'),nav=document.querySelector('nav');
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});
 document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
-</script>
-<script>
-const resumeForm = document.getElementById('resumeForm');
-const formStatus = document.getElementById('formStatus');
 
-resumeForm.addEventListener('submit', function(e) {
-  e.preventDefault();
+// Automatic day/night theme based on visitor's local time.
+function applyTimeTheme(){
+  const hour=new Date().getHours();
+  const isDay=hour>=6 && hour<18;
+  document.documentElement.dataset.theme=isDay?'light':'dark';
+  const meta=document.querySelector('meta[name="theme-color"]');
+  if(meta) meta.content=isDay?'#f7f9fb':'#0b1017';
+}
+applyTimeTheme();
+setInterval(applyTimeTheme,60000);
 
-  if (!resumeForm.checkValidity()) {
-    resumeForm.reportValidity();
-    return;
-  }
-
-  const data = {
-    name: document.getElementById('visitorName').value.trim(),
-    phone: document.getElementById('visitorPhone').value.trim(),
-    email: document.getElementById('visitorEmail').value.trim(),
-    reason: document.getElementById('downloadReason').value,
-    details: document.getElementById('reasonDetails').value.trim(),
-    submittedAt: new Date().toISOString()
-  };
-
-  /*
-    IMPORTANT:
-    This version validates the form and unlocks the resume.
-    To receive visitor submissions remotely, set up a backend/form endpoint
-    and send this data there. No visitor data is silently sent to a third party
-    by this demo.
-  */
-  localStorage.setItem('resumeRequest_' + Date.now(), JSON.stringify(data));
-
-  formStatus.textContent = 'Thank you. Your details have been submitted on this device. Your resume is opening now.';
-  const a = document.createElement('a');
-  a.href = 'resume.pdf';
-  a.download = 'Vishal_Suryawanshi_Resume.pdf';
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
+// Resume: only the "Download Resume" button is shown initially.
+const openResumeForm=document.getElementById('openResumeForm');
+const resumeFormBox=document.getElementById('resumeFormBox');
+openResumeForm.addEventListener('click',()=>{
+  resumeFormBox.hidden=false;
+  openResumeForm.hidden=true;
+  resumeFormBox.scrollIntoView({behavior:'smooth',block:'start'});
 });
+
+// Owner-only gallery controls. Added photos are stored in this browser only.
+(function(){
+  const loginBtn=document.getElementById('ownerLoginBtn'),addBtn=document.getElementById('addPhotoBtn'),logoutBtn=document.getElementById('logoutBtn'),input=document.getElementById('photoInput'),status=document.getElementById('ownerStatus'),grid=document.getElementById('galleryGrid');
+  const OWNER_PASSWORD='Vishal@2026';
+  function owner(on){loginBtn.hidden=on;addBtn.hidden=!on;logoutBtn.hidden=!on;document.querySelectorAll('.delete-photo').forEach(b=>b.hidden=!on);status.textContent=on?'Owner mode active.':'';}
+  function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));}
+  function loadLocal(){
+    const items=JSON.parse(localStorage.getItem('vishal_gallery')||'[]');
+    items.forEach((p,i)=>{
+      const card=document.createElement('div');card.className='gallery-card uploaded-gallery-card';
+      card.innerHTML=`<div class="gallery-photo"><img src="${p.data}" alt="${esc(p.title)}" loading="lazy"></div><strong>${esc(p.category)}</strong><small>${esc(p.title)}</small><button class="delete-photo" data-i="${i}" type="button">Delete</button>`;
+      grid.appendChild(card);
+    });
+  }
+  loginBtn.onclick=()=>{const p=prompt('Owner password:');if(p===OWNER_PASSWORD)owner(true);else if(p!==null)alert('Incorrect password.');};
+  logoutBtn.onclick=()=>owner(false);
+  addBtn.onclick=()=>input.click();
+  input.onchange=()=>{
+    const files=[...input.files];if(!files.length)return;
+    let category=prompt('Category: Nature, Travel or Personal','Nature');if(!category)return;
+    category=category.trim();if(!['Nature','Travel','Personal'].includes(category)){alert('Use Nature, Travel or Personal.');return;}
+    const stored=JSON.parse(localStorage.getItem('vishal_gallery')||'[]');let pending=files.length;
+    files.forEach(file=>{if(!file.type.startsWith('image/')){pending--;return;}const reader=new FileReader();reader.onload=()=>{stored.push({category,title:file.name,data:reader.result});pending--;if(pending<=0){localStorage.setItem('vishal_gallery',JSON.stringify(stored));location.reload();}};reader.readAsDataURL(file);});
+    input.value='';
+  };
+  loadLocal();
+})();
 </script>
-</body></html>
+</body>
+</html>
